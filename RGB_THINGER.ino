@@ -9,7 +9,7 @@ ThingerESP32 thing(usuario, device_Id, device_credentials);
 const char WiFi_ssid[] = "TU_CONEXION_EDWIN_SUQUI";
 const char WiFi_password[] = "1900470053";
 
-int LED_MONOCROMO = 15;
+int LED_MONOCROMO = 2;
 int LED_RGB_R = 13;
 int LED_RGB_G = 12;
 int LED_RGB_B = 14;
