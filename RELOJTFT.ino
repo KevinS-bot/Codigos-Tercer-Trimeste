@@ -9,11 +9,11 @@
 const char* ssid = "TU_CONEXION_EDWIN_SUQUI";
 const char* password = "1900470053";
 
-#define TFT_CS     5
-#define TFT_RST    4
-#define TFT_DC     2
-#define TFT_SCLK   18
-#define TFT_MOSI   23
+#define TFT_CS     33
+#define TFT_RST    27
+#define TFT_DC     14
+#define TFT_SCLK   17
+#define TFT_MOSI   16
 
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 
