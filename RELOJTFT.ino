@@ -12,8 +12,8 @@ const char* password = "1900470053";
 #define TFT_CS 33
 #define TFT_RST 27
 #define TFT_DC 14
-#define TFT_SCLK 17
-#define TFT_MOSI 16
+#define TFT_SCLK 23
+#define TFT_MOSI 18
 
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 WiFiUDP ntpUDP;
