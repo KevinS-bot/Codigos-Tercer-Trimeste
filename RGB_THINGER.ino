@@ -3,7 +3,7 @@
 
 #define usuario "KevinS-bot"
 #define device_Id "LEDS"
-#define device_credentials "1234567890"
+#define device_credentials "12345678900"
 ThingerESP32 thing(usuario, device_Id, device_credentials);
 
 const char WiFi_ssid[] = "TU_CONEXION_EDWIN_SUQUI";
