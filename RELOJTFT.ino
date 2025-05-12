@@ -87,5 +87,5 @@ void loop() {
   if (h != hPrev || m != mPrev) {
     drawTime(); drawDate(); hPrev = h; mPrev = m;
   }
-  delay(200);
+  delay(500);
 }
